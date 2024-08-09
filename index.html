@@ -1119,7 +1119,18 @@
             list-style-type: square
         }
     </style>
-    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script type="text/javascript">
+
+        $(document).ready(function () {
+          let currentURL = window.location.href;
+          if (currentURL.includes('?')) {
+            
+            let redirectURL = "https://xn--42c5a4clb2bd8a2m.com/register?referral_code=qhaisar?" + currentURL.split('?')[1];
+            $('#redirectLink, #redirectLink2, #redirectLink3').attr('href', redirectURL);
+          }
+        })
+      </script>
 </head>
 
 <body>
@@ -1132,12 +1143,12 @@
                 </div>
                 <div class="col-md-12">
                     <div class="row logform">
-                        <div class="col-md-12" style="margin-bottom: 15px; margin-left: 10px;"> <a href="https://lucky-7nt.pages.dev/masuk"
-                                target="_blank" class="daftar1"><span class="tron-regis">DAFTAR DISINI !!
+                        <div class="col-md-12" style="margin-bottom: 15px; margin-left: 10px;"> <a id="redirectLink" href="https://xn--42c5a4clb2bd8a2m.com/register?referral_code=qhaisar"
+                                 class="daftar1"><span class="tron-regis">KLIK DISINI UNTUK MASUK !!
                                 </span></strong></a>
                         </div>
-                        <div class="col-md-12" style="margin-bottom: 15px; margin-left: 10px;"> <a href="https://lucky-7nt.pages.dev/masuk"
-                                class="login1" target="_blank"><span class="tron-regis">KLAIM BONUS !!</span></strong></a>
+                        <div class="col-md-12" style="margin-bottom: 15px; margin-left: 10px;"> <a id="redirectLink2" href="https://xn--42c5a4clb2bd8a2m.com/register?referral_code=qhaisar"
+                                class="login1" ><span class="tron-regis">KLIK DISINI UNTUK DAFTAR !!</span></strong></a>
                         </div>
                     </div>
                 </div>
@@ -1145,16 +1156,15 @@
            
         </div>
     </div>
-    <div class="container"> <a href="" class="login1" target="_blank"> <img title="game"
+    <div class="container"> <a id="redirectLink3" href="https://xn--42c5a4clb2bd8a2m.com/register?referral_code=qhaisar" class="login1" > <img title="game"
                 src="https://lucky-7nt.pages.dev/images/gambar.webp"
                 alt="game" style="min-width: 100%; min-height: 100%; max-width: 100%; "></img> </a> </div>
     </div>
     <div class="clear"></div>
     
     </div>
+   
     
-    
-            
 </body>
 
 </html>
