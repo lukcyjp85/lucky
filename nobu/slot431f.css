@@ -679,7 +679,7 @@ img {
 	
 	.cta-button {
 		font-family: 'Arial', sans-serif;
-		background: #f68b11; /* Button color */
+		background: #ff0000; /* Button color */
 		border: 3px solid rgba(255, 165, 0, 0.5); /* Initial glowing border */
 		width: 95%;
 		height: 30px;
