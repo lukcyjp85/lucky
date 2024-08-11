@@ -523,7 +523,7 @@ img {
 		position: relative;
 	}
 	body {
-		background: #020160;
+		background: #000000;
 	}
 	.btn-provider {
 		text-align: center;
@@ -663,7 +663,7 @@ img {
 	}
 	
 	main {
-		background: #596000; /* Adjust if needed */
+		background: ; /* Adjust if needed */
 		text-align: center;
 	}
 	
